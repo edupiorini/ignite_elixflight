@@ -5,11 +5,11 @@ defmodule IgniteElixflight.Users.User do
   defstruct @keys
 
   def build(name, email, cpf) when is_bitstring(cpf) do
-    id = UUID.uuid4()
+    uuid = UUID.uuid4()
 
     {:ok,
      %__MODULE__{
-       id: id,
+       id: uuid,
        name: name,
        email: email,
        cpf: cpf
