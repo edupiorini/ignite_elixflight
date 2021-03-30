@@ -3,8 +3,7 @@ defmodule IgniteElixflight.Bookings.CreateUpdate do
   alias IgniteElixflight.Bookings.Booking
   alias IgniteElixflight.Users.Agent, as: UserAgent
 
-  def call(%{
-        cpf: cpf,
+  def call(cpf, %{
         data_completa: data_completa,
         cidade_origem: cidade_origem,
         cidade_destino: cidade_destino
