@@ -12,5 +12,5 @@ defmodule IgniteElixflight do
 
   defdelegate(create_user(params), to: CreateUpdateUser, as: :call)
   defdelegate(create_booking(user_cpf, params), to: CreateUpdateBooking, as: :call)
-  defdelegate(get_booking(params), to: BookingAgent, as: :get)
+  defdelegate(get_booking(booking_id), to: BookingAgent, as: :get)
 end
