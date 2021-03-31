@@ -49,7 +49,7 @@ defmodule IgniteElixflightTest.Bookings.AgentTest do
       assert expected_response == response
     end
 
-    test "given an invalid user, returns an error", %{booking: booking} do
+    test "given an invalid user, returns an error" do
       response = BookingAgent.get(123)
 
       assert response == {:error, "Booking not found!"}

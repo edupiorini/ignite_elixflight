@@ -1,9 +1,7 @@
 defmodule IgniteElixflightTest.Bookings.CreateUpdateTest do
   use ExUnit.Case
 
-  alias IgniteElixflight.Bookings.Agent, as: BookingAgent
   alias IgniteElixflight.Bookings.CreateUpdate, as: CreateUpdateBooking
-  alias IgniteElixflight.Users.Agent, as: UserAgent
   alias IgniteElixflight.Users.CreateUpdate, as: CreateUpdateUser
 
   import IgniteElixflight.Factory
