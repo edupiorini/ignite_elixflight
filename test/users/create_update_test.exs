@@ -1,4 +1,4 @@
-defmodule IgniteElixflightTest.CreateUpdateTest do
+defmodule IgniteElixflightTest.Users.CreateUpdateTest do
   use ExUnit.Case
 
   alias IgniteElixflight.Users.Agent, as: UserAgent
