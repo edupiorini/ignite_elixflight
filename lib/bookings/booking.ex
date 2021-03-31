@@ -25,4 +25,6 @@ defmodule IgniteElixflight.Bookings.Booking do
        id_usuario: id_usuario
      }}
   end
+
+  def build(_user, _date_, _origem, _destino), do: {:error, "Invalid Parameter"}
 end
