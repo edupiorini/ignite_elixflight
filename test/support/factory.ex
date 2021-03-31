@@ -1,5 +1,8 @@
-defmodule IgniteElixflightTest.Factory do
+defmodule IgniteElixflight.Factory do
   use ExMachina
+
+  alias IgniteElixflight.Bookings.Date
+  alias IgniteElixflight.Users.User
 
   def user_factory do
     %User{
