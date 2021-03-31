@@ -1,4 +1,4 @@
-defmodule IgniteElixflightTest.AgentTest do
+defmodule IgniteElixflightTest.Users.AgentTest do
   use ExUnit.Case
   alias IgniteElixflight.Users.Agent, as: UserAgent
   import IgniteElixflight.Factory
